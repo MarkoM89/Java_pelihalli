@@ -7,8 +7,15 @@
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.javapelihalli.PrimaryController">
    <children>
-      <Label text="Päänäkymä" />
-      <Button fx:id="primaryButton" text="Peli_1" onAction="#switchToSecondary"/>
+      <Label text="******************************" />
+      <Label text="Pelihalli, valitse peli" />
+      <Label text="******************************" />
+      <Button fx:id="lukuarvausButton" text="Aloita luvun arvaus" onAction="#switchToLukuarvaus"/>
+      <Button fx:id="thirdButton" text="Aloita visailupeli" onAction="#switchToVisailu"/>
+      <Button fx:id="fourthButton" text="Aloita kivi sakset papaeri" onAction="#switcToKiviPaperiSakset"/>
+       <Button fx:id="fifthhButton" text="Aloita hedelmäpeli" onAction="#switchTohedelmapeli"/>
+      <Button fx:id="sixthButton" text="Aloita nopalla arvonta" onAction="#switchToNoppaArvonta"/>
+      <Button fx:id="seventhButton" text="Aloita hirttopuu" onAction="#switchToHirttopuu"/>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
