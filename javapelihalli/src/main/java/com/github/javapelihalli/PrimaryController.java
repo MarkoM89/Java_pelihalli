@@ -7,31 +7,31 @@ public class PrimaryController {
 
     @FXML
     private void switchToLukuarvaus() throws IOException {
-        App.setRoot("secondary");
+        App.setRoot("luvunarvaus");
     }
 
     @FXML
     private void switchToVisailu() throws IOException {
-        App.setRoot("third");
+        App.setRoot("visailu");
     }
 
     @FXML
     private void switcToKiviPaperiSakset() throws IOException {
-        App.setRoot("fourth");
+        App.setRoot("kivipaperisakset");
     }
 
         @FXML
     private void switchTohedelmapeli() throws IOException {
-        App.setRoot("fifth");
+        App.setRoot("hedelmapeli");
     }
 
         @FXML
     private void switchToNoppaArvonta() throws IOException {
-        App.setRoot("sixth");
+        App.setRoot("nopallaarvonta");
     }
 
         @FXML
     private void switchToHirttopuu() throws IOException {
-        App.setRoot("seventh");
+        App.setRoot("hirttopuu");
     }
 }
